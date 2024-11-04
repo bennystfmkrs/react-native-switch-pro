@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/poberwong/react-native-switch-pro.git"
   },
-  "dependencies": {
-    "prop-types": "^15.5.10"
-  },
+
   "keywords": [
     "switch",
     "universal",

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from "prop-types"
 import {
-  ColorPropType,
   StyleSheet,
   Animated,
   Easing,
@@ -11,21 +9,6 @@ import {
 const SCALE = 6 / 5
 
 export default class extends Component {
-  static propTypes = {
-    width: PropTypes.number,
-    height: PropTypes.number,
-    value: PropTypes.bool,
-    disabled: PropTypes.bool,
-    circleColorActive: ColorPropType,
-    circleColorInactive: ColorPropType,
-    backgroundActive: ColorPropType,
-    backgroundInactive: ColorPropType,
-    onAsyncPress: PropTypes.func,
-    onSyncPress: PropTypes.func,
-    style: PropTypes.object,
-    circleStyle: PropTypes.object
-  }
-
   static defaultProps = {
     width: 40,
     height: 21,
